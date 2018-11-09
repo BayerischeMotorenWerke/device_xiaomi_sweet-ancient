@@ -277,6 +277,7 @@ ro.vendor.extension_library=libqti-perfd-client.so
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.radio.multisim.config=dsds \
 persist.vendor.qti.telephony.vt_cam_interface=2 \
+persist.vendor.radio.add_power_save=1 \
 persist.sys.fflag.override.settings_provider_model=false \
 persist.vendor.radio.apm_sim_not_pwdn=1 \
 persist.vendor.radio.custom_ecc=1 \
