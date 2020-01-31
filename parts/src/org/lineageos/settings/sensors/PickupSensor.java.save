@@ -82,7 +82,11 @@ public class PickupSensor implements SensorEventListener {
                 mPowerManager.wakeUp(SystemClock.uptimeMillis(),
                     PowerManager.WAKE_REASON_GESTURE, TAG);
             } else {
+<<<<<<< HEAD:parts/src/org/lineageos/settings/sensors/PickupSensor.java
+                DozeUtils.launchDozePulse(mContext);
+=======
                 DozeUtils.wakeOrLaunchDozePulse(mContext);
+>>>>>>> d6d9d212 (violet: parts: Introduce raise to wake gesture):parts/src/org/lineageos/settings/doze/PickupSensor.java
             }
         }
     }
