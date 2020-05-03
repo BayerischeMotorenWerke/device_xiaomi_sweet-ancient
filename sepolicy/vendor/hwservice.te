@@ -1,3 +1,5 @@
+type hal_misys_hwservice, hwservice_manager_type;
+
 # Fingeprint
 type hal_fingerprint_hwservice_xiaomi, hwservice_manager_type;
 

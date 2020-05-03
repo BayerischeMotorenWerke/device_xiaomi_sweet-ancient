@@ -6,6 +6,9 @@ vendor.xiaomi.hardware.fingerprintextension::IXiaomiFingerprint                 
 # ???????????
 vendor.sw.swfingerprint::ISwfingerprint                                               u:object_r:hal_fingerprint_hwservice_xiaomi:s0
 
+# Misys
+vendor.xiaomi.hardware.misys::IMiSys
+
 # NFC
 vendor.nxp.nxpese::INxpEse                                                            u:object_r:hal_nxpese_hwservice:s0
 vendor.nxp.nxpnfc::INxpNfc                                                            u:object_r:hal_nxpnfc_hwservice:s0
