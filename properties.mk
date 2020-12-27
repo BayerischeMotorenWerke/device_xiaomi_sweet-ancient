@@ -293,7 +293,7 @@ telephony.active_modems.max_count=2
 PRODUCT_SYSTEM_PROPERTIES += \
 DEVICE_PROVISIONED=1 \
 ril.subscription.types=NV,RUIM \
-ro.telephony.default_network=22,22 \
+ro.telephony.default_network=33,33 \
 telephony.lteOnCdmaDevice=1
 
 # Radio (IMS)
