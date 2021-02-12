@@ -107,6 +107,16 @@
         </service>
 
         <service
+            android:name=".RefreshRateTileService"
+            android:icon="@drawable/ic_qs_refresh_rate"
+            android:label="@string/refresh_rate_tile_title"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+
+        <service
             android:name=".display.tile.DcDimmingTile"
             android:icon="@drawable/ic_dimming_off"
             android:label="@string/dc_dimming_tile_title"
