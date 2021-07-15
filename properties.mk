@@ -110,16 +110,20 @@ persist.vendor.audio.fluence.voicerec=false
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
+persist.bluetooth.a2dp_offload.disabled=false \
 persist.vendor.bluetooth.ble_drop_power=true \
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive \
 persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true \
+persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false \
 persist.vendor.qcom.bluetooth.enable.splita2dp=true \
 persist.vendor.qcom.bluetooth.enable.swb=false \
 persist.vendor.qcom.bluetooth.enable.swbpm=false \
 persist.vendor.qcom.bluetooth.scram.enabled=true \
 persist.vendor.qcom.bluetooth.soc=cherokee \
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false \
-ro.vendor.bluetooth.wipower=false
+ro.bluetooth.a2dp_offload.supported=true \
+ro.vendor.bluetooth.wipower=false \
+vendor.qcom.bluetooth.soc=cherokee
 
 # Blur
 PRODUCT_SYSTEM_PROPERTIES += \
