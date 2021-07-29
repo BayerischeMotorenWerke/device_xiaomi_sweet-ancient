@@ -1,5 +1,6 @@
 allow platform_app vendor_sysfs_graphics:dir search;
 allow platform_app vendor_sysfs_graphics:file r_file_perms;
+get_prop(platform_app, vendor_display_prop);
 
 # Allow MIUI camera app to read no. of cpus
 allow platform_app cgroup:file r_file_perms;
