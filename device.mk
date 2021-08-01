@@ -37,6 +37,10 @@ PRODUCT_PACKAGES += \
     libtinycompress.vendor \
     libvolumelistener
 
+# Camera
+PRODUCT_PACKAGES += \
+    CutoutRingServiceSweet
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
