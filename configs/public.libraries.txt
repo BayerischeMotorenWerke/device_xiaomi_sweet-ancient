@@ -1,3 +1,4 @@
+libqti-perfd-client.so
 libadsprpc.so
 libcdsprpc.so
 libsdsprpc.so
@@ -9,6 +10,9 @@ libhta_hexagon_runtime.so
 unnhal-acc-hta.so
 libmpbase.so 64
 libmialgoengine.so 64
+libHalSuperSensorServer.so
+libSuperSensor.so
+libSuperSensorCPU.so
 libarcsoft_beautyshot.so 64
 libarcsoft_dualcam_refocus.so 64
 libarcsoft_dualcam_refocus_rear_t.so 64
@@ -24,9 +28,14 @@ libalCFR.so
 libcvp.so
 libcvp_stub.so
 libcvp_common.so
+libalhLDC.so
+libalAILDC.so
+libVDClearShot.so
+libVDSuperPhotoAPI.so
 libsdk_sr.so 64
-lib_sr_models.so 64
+libst_sr_models.so 64
 libhvx_interface.so 64
+lib_denoiser3.so 64
 libxml2_vendor.so 64
 libmialgo_ie_capture.so 64
 libmialgo_utils.so
