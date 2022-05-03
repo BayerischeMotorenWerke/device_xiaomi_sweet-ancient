@@ -201,6 +201,7 @@ ro.vendor.qti.va_aosp.support=1
 PRODUCT_PROPERTY_OVERRIDES += \
 debug.sf.disable_backpressure=1 \
 debug.sf.enable_hwc_vds=1 \
+debug.hwui.renderer=skiagl \
 debug.sf.latch_unsignaled=1 \
 persist.sys.sf.color_saturation=1.0 \
 ro.hardware.egl=adreno \
