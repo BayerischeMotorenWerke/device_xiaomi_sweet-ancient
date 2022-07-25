@@ -339,6 +339,9 @@ debug.sf.earlyGl.app.duration=16666666
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.binary_xml=false
 
+# Tethering
+sys.fflag.override.settings_tether_all_in_one=true
+
 # VoLTE/ViLTE/WFC
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.dbg.volte_avail_ovr=1 \
