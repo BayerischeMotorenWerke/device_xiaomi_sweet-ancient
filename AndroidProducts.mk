@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sweet.mk
+    $(LOCAL_DIR)/ancient_sweet.mk
+
+COMMON_LUNCH_CHOICES := \
+    ancient_sweet-user \
+    ancient_sweet-userdebug \
+    ancient_sweet-eng
